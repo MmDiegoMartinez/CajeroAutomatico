@@ -1,0 +1,212 @@
+
+
+* {
+    /*Parametros generales*/
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(img/Fondo.jpg);
+}
+h1{
+    text-align: center;
+    background-color: #072146;
+   
+    font-size: 40px;
+    color: white;
+    padding: 20px;
+}
+nav ul{
+    background-color: #237ABA;
+    width: 100%;
+    list-style-type: none;
+    text-align: center;
+}
+nav li{
+    display: inline-flex;
+}
+nav a{
+    text-decoration: none;
+    color: #072146;
+    padding: 10px;
+    width: 150px;
+}
+nav li:hover{
+    background-color: #EAF9FA;
+}
+
+footer{
+    display: flex;
+    width: 100%;
+    height: 180px;
+    background-color: #072146; 
+    color: white;
+    font-family: Comic Sans MS;
+    font-size: 15px;
+    padding: 10px;
+    margin-top: 20px;
+    
+    
+}
+
+
+.controls{
+    width: 75%;
+    background-color: #e9e9e9 ;
+    padding: 8px;
+    border-radius: 5px;
+    margin-top: 10px;
+    border: 1px solid #072146;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    
+}
+
+.contenedor2 { 
+    width: 450px;
+    background-color: #e9e9e9;
+    padding: 30px; /*centra el contenido en el div*/
+    margin: auto;
+    margin-top: 100px;
+    box-shadow: 1px 1px 40px black;
+    border-radius: 15px;
+    color: rgb(34, 34, 34);
+    font-family: 'calibri';
+}
+ .contenedor3{
+    
+    margin: 5px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 250px 250px 250px;
+ }
+
+ .bontons{
+    width: 40%;
+    background-color: #237ABA;
+    padding: 8px;
+    font-size: 15px;
+    margin: 16px 0;
+    color: #ffffff;
+   
+ }
+ .parte{
+    background-color: #043262;
+    font-family: Comic Sans MS;
+    font-weight: bold;
+    padding: 22px;
+    text-align: center;
+    margin-right: 5px;
+     margin-bottom: 5px;
+    font-family: 'Arial', sans-serif; /* Tipo de letra */
+    font-size: 20px; /* Tamaño de fuente */
+    color: white;
+
+    
+ }
+
+ .contenedor4 :hover{
+    background-color: #237ABA ;
+}
+
+p {
+    font-family: 'Arial', sans-serif; /* Tipo de letra */
+    font-size: 12px; /* Tamaño de fuente */
+    line-height: 1.5; /* Altura de línea (espaciado entre líneas) */
+    margin-bottom: 10px; /* Margen inferior */
+    color: white; /* Color del texto */
+}
+
+
+
+
+.tarjeta {
+    width: 300px;
+    height: 180px;
+    background-image: url('img/Fondoazul.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.chip {
+    width: 50px;
+    height: 50px;
+    background-image: url('img/chip.png');
+    background-size: cover;
+    align-self: flex-start; /* No centrar el chip */
+}
+
+.logo {
+    width: 60px;
+    height: 30px;
+    background-image: url('img/BBVA2.png');
+    background-size: cover;
+    margin-top: 10px;
+    align-self: flex-end; /* No centrar el logo */
+}
+
+.numero-tarjeta {
+    font-size: 18px;
+    font-family: 'Arial', sans-serif;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.numero-tarjeta span {
+    margin-right: 10px;
+}
+
+.nombre-titular {
+    margin-top: 10px;
+    font-size: 14px;
+    font-family: 'Arial', sans-serif;
+}
+
+.visa {
+    width: 60px;
+    height: 35px;
+    background-image: url('img/Visa.png');
+    background-size: cover;
+    margin-top: 10px;
+    align-self: flex-end; /* No centrar el logo */
+}
+
+
+ @media screen and (max-width:992px) {
+
+    .contenedor {
+        width: auto;
+    }
+
+}
+
+@media screen and (max-width:768px) {
+
+    .contenedor2 {
+        width: 50%;
+    }
+
+}
+
+@media screen and (max-width:468px) {
+
+    .contenedor2  {
+        width: 100%;
+    }
+
+}
+
+
+
+ 
+
